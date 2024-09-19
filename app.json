@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "todolist",
-    "slug": "todolist",
+    "name": "thalyta_xavier",
+    "slug": "thalytaxavier",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anderson.bamberg.todolist"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "522be892-e8a7-4166-bfd7-a80223b7de57"
+      }
+    },
+    "owner": "anderson.bamberg"
   }
 }
